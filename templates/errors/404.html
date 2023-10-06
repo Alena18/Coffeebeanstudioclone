@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container h-100 margin-top-threerem text-center">
+    <div class="h-100">
+        <h1 class="display-4 alltext redtext sizethreerem">
+            OOPS!!! Sorry, the page not found.
+        </h1>
+        <div class="margin-top-threerem">
+            <a><i class="fa-solid fa-dove"></i></a>
+        </div>
+        <div class="my-5">
+            <h4>
+                <a href="{% url 'designproducts' %}" class="btn rounded-8 alltext light_brown" id="btnreturn">
+                    Return to shop
+                </a>
+            </h4>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}
